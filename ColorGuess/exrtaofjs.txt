@@ -1,0 +1,109 @@
+//very easy
+// document.querySelector("#v-easy").addEventListener("click", function()
+// 	{	
+// 		document.querySelector('#v-easy').classList.add('active');
+// 		document.querySelector('#hard').classList.remove('active');
+// 		document.querySelector('#easy').classList.remove('active');
+// 		document.querySelector('#v-hard').classList.remove('active');
+// 		document.querySelector('#legend').classList.remove('active');
+// 		document.querySelector("span").style.color='#000';
+// 		arr1=[];
+// 		blank();		
+// 		randomColors=randomcolors(3);
+// 		console.log(randomColors)
+
+// for (var i = 0; i < 3; i++) {
+// 	easy=Math.floor(Math.random()*circles.length);
+// 	arr1.push(easy);
+// 	console.log(arr1);
+// 	circles[easy].style.background=randomColors[i];
+// 	circles[easy].style.visibility="visible";
+// 			}
+		
+// 		pickColor=pickedColor(3); 
+// 		console.log(pickColor);
+			
+// 	});
+
+
+// //easy
+// document.querySelector("#easy").addEventListener("click", function()
+// 	{	
+// 		document.querySelector('#v-easy').classList.remove('active');
+// 		document.querySelector('#hard').classList.remove('active');
+// 		document.querySelector('#easy').classList.add('active');
+// 		document.querySelector('#v-hard').classList.remove('active');
+// 		document.querySelector('#legend').classList.remove('active');
+// 				document.querySelector("span").style.color='#000';
+// 		arr1=[];
+// 		blank();		
+// 		randomColors=randomcolors(6);
+// 		console.log(randomColors)
+
+// for (var i = 0; i < 6; i++) {
+// 	easy=Math.floor(Math.random()*circles.length);
+// 	arr1.push(easy);
+// 	console.log(arr1);
+// 	circles[easy].style.background=randomColors[i];
+// 	circles[easy].style.visibility="visible";
+// 			}
+		
+// 		pickColor=pickedColor(6); 
+// 		console.log(pickColor);
+			
+
+// 	});
+// //hard
+// document.querySelector("#hard").addEventListener("click", function()
+// 	{	
+// 		document.querySelector('#v-easy').classList.remove('active');
+// 		document.querySelector('#hard').classList.add('active');
+// 		document.querySelector('#easy').classList.remove('active');
+// 		document.querySelector('#v-hard').classList.remove('active');
+// 		document.querySelector('#legend').classList.remove('active');
+// 				document.querySelector("span").style.color='#000';
+
+// 		arr1=[];
+// 		blank();		
+// 		randomColors=randomcolors(10);
+// 		console.log(randomColors)
+
+// for (var i = 0; i < 10; i++) {
+// 	easy=Math.floor(Math.random()*circles.length);
+// 	arr1.push(easy);
+// 	console.log(arr1);
+// 	circles[easy].style.background=randomColors[i];
+// 	circles[easy].style.visibility="visible";
+// 			}
+		
+// 		pickColor=pickedColor(10); 
+// 		console.log(pickColor);
+			
+
+// 	});
+
+
+
+// //very HArd
+// document.querySelector("#v-hard").addEventListener("click", function()
+// 	{	
+		
+
+// 		arr1=[];
+// 		blank();		
+// 		randomColors=randomcolors(16);
+// 		console.log(randomColors)
+
+// for (var i = 0; i < 16; i++) {
+// 	easy=Math.floor(Math.random()*circles.length);
+// 	arr1.push(easy);
+// 	console.log(arr1);
+// 	circles[easy].style.background=randomColors[i];
+// 	circles[easy].style.visibility="visible";
+// 			}
+		
+// 		pickColor=pickedColor(16); 
+// 		console.log(pickColor);
+			
+
+// 	});
