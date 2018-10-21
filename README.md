@@ -14,3 +14,5 @@ JavaScript Projects
 2. Color Guesser:
      -Player has to guess the given color in RGB format from the circles .
      -Difficulty can be choosen.
+3. Budget App
+        -vanillascript budget using module pattern
