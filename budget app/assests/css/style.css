@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css?family=K2D|Oswald|Yanone+Kaffeesatz');
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+   
+    background: whitesmoke
+}
+
+.upper{
+    background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+text-align: center;
+    width:100%;
+    height: 160px;
+    margin:0 auto;
+    padding-top: 15%;
+    font-size: 0.9em;
+}
+.upper>h3{
+    font-size: 3.3em;
+    color: #fff;
+    font-family: 'K2D', sans-serif;
+
+}
+.upper> p:first-child{
+    color:rgb(52, 158, 52);
+}
+
+.upper> p:last-child{
+    color:rgb(205, 170, 245);
+}
+
+
+.middle{
+    margin: 0 auto;
+    margin-top:-7% ;
+    width:280px;
+    height:60px;
+    background:#fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    text-align: center; 
+    border-radius: 5px;
+    opacity: 0.96;
+    box-shadow: 0 0 1px rgba(0,0,0,0.25), 0 0 3px rgba(0,0,0,0.22);
+}
+
+.middle> .inc{
+    
+    width:139px;
+    height:100%;
+    border-right: #888 1px solid;
+    
+}
+.middle> .exp{
+    width:139px;
+    height:auto;
+}
+
+.middle .title{
+    width:40%;
+    display: block;
+    text-align: center;
+    border-radius: 50px;
+    margin: 5px auto;
+    background: white;
+    border:1px solid #000;
+    font-size: 0.85em;
+}
+.middle>.exp>.amt{
+    font-family: 'K2D', sans-serif;
+    font-size: 0.9em;
+    color :rgb(212, 9, 9); 
+    margin-left: 40px;
+
+}
+.middle>.inc>.amt{
+    font-family: 'K2D', sans-serif;
+    font-size: 0.9em;
+    color:rgb(6, 161, 32); 
+}   
+
+.add__container{
+    position:fixed;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: row;
+    width: 100%;
+    align-content: space-between;
+    bottom: 0;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.add__container>.add__type{
+    height: 35px;
+    width: 40px;
+    margin:5px 3px;
+    outline: none;
+   
+
+}
+.add__container>.add__description{
+    height: 20px;
+    width:60%;
+    margin:5px 2px;
+    padding: 6px;
+    outline: none;
+    
+
+}
+.add__container>.add__value{
+    height: 20px;
+    width: 50px;
+    margin:5px 3px;
+    padding: 6px;
+  
+
+    
+}
+.add__container>.add__description:focus,.add__container>.add__value:focus{
+    border: forestgreen 1px solid;
+    outline: none;
+}
+
+.add__container>.add__btn{
+    outline: none;
+    background-color: #fff;
+    border:none;
+    height: 35px;
+    width: 50px;
+    margin:5px 2px;
+     color: forestgreen;
+    
+}
+.add__container>.add__btn:focus{
+    outline: none;
+}
+
+
+
+
+.lower{
+    font-family: 'Oswald', sans-serif;
+    /* background-color: aqua; */
+    height:auto;
+    width: 85%;
+    margin: 0 auto;
+    text-transform: capitalize;
+
+}
+.lower>p{
+    margin:15px;
+    margin-left:-5px;
+}
+.lower>.income-item{
+    transition: transform 0.3s;
+    box-shadow: 0 0 1px rgba(0,0,0,0.25), 0 0 5px rgba(0,0,0,0.22);
+    background-color: #fff;
+    display: flex;
+    justify-content:space-between;
+    height: 20px;
+    font-size: 1.5em;
+    padding: 10px;
+    padding-bottom: 12px;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.lower>.income-item>.item-left>.item-value{
+    color:rgb(19, 175, 19);
+    font-size: 0.6em;
+    transition: transform 0.3s;
+    font-family: 'K2D', sans-serif;
+
+}
+
+.lower>.income-item>.item-description{
+    font-size: 0.75em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+.lower>.expense-item{
+    box-shadow: 0 0 1px rgba(0,0,0,0.25), 0 0 5px rgba(0,0,0,0.22);
+    
+    background-color: #fff;
+    color:#000;
+    display: flex;
+    justify-content:space-between;
+    height: 20px;
+    font-size: 1.5em;
+    padding: 10px;
+    padding-bottom: 12px;
+    border-radius: 2px;
+    margin: 10px 0;
+    
+}
+
+.lower>.expense-item>.item-left>.item-value{
+    color: rgb(212, 9, 9);
+    font-size: 0.6em;
+    font-family: 'K2D', sans-serif;
+    transition: transform 0.3s;
+}
+.expense-item:hover .item-value{ transform: translateX(-15px); }
+.income-item:hover .item-value{ transform: translateX(-5px); }
+.lower>.expense-item>.item-description{
+    font-size: 0.75em;
+    margin-top:0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+.date{
+    font-size: 0.6em;
+    color: gray;
+    
+}
+
+
+
+.item-left{
+    display: flex;
+  
+}
+
+
+.item-delete{
+
+    padding-right: 0; 
+    display: none;
+    border:none;
+    outline: none;
+    transition: transform 0.3s;
+
+    background:none;
+}
+
+.item-left:hover .item-delete{
+    display: inline-block;
+
+}
+
+.percent{
+    background-color: whitesmoke;
+    margin-left: 5px;
+    font-size: .75em;
+    padding: 4px;
+    color: red;
+}
+
+.item-percent{
+    display: none;
+    background-color: whitesmoke;
+    margin-left: 3;
+    font-size: .4em;
+    padding: 4px;
+    color: red;
+    transition: transform 0.3s;
+
+}
+
+
+
+.expense-item:hover .item-percent,.income-item:hover .item-delete {
+    display: inline-block;
+    transform: translateX(-2px); 
+
+}
+
+
+.fa-check-circle{
+
+    cursor: pointer;
+}
+
+.fa-times-circle{
+    margin-left: 5px;
+    opacity: 0.7;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.fa-long-arrow-alt-up,.fa-long-arrow-alt-down{
+    margin-right: 7px;
+}
+
+.focus{
+    /* border: rgb(212, 9, 9) 1px solid !important; */
+    outline: none;
+}
+
+.focus:focus{
+    border: rgb(212, 9, 9) 1px solid !important;
+    outline: none;
+}
+
+.focus:active{
+    border: rgb(212, 9, 9) 1px solid !important;
+    outline: none;
+}
+
+.btn-focus{
+    color:red !important;
+}

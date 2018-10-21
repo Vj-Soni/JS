@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Budget</title>
+    <link rel="stylesheet" href="assests/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <div class="upper">
+        <p>Available balance</p>
+        <h3>3,000.00</h3>
+        <p class="title_date">November 16 2018</p>
+    </div>
+    <div class="middle">
+        <div class="inc">
+            <span class="title">income</span>
+            <span class="amt">6,877.00<i class="fas fa-long-arrow-alt-up fa-xs"></i></span>
+        </div>
+        <div class="exp">
+                <span class="title">expense</span>
+                <span class="amt">6,877.00</span>
+                <span class="percent">2%</span>
+        </div>
+    </div>
+    <div>
+        <div class="add__container">
+        <select class="add__type select">
+            <option value="inc" selected>+</option>
+            <option value="exp">-</option>
+        </select>
+        <input type="text" class="add__description" placeholder="Add description">
+        <input type="number" class="add__value" placeholder="Value">
+        <button class="add__btn"><i class="fas fa-check-circle fa-2x"></i></button>
+
+    </div>
+    <div class="lower">
+        <p>details of movement</p>
+        <!-- <div class="income-item" id="income-0">
+            <div class="item-description">Salary</div>
+            <div class="item-value">20000 
+                <button class="item-delete"><i class="ion-ios-close-outline"></i></button>
+            </div>
+        </div>-->
+        <!-- <div class="expense-item" id="expense-0">
+                <div class="item-description">Holiday</div>
+                <div class="item-left">
+                        <div class="item-value">2000</div>
+                        <span class="item-percent">2%</span>
+                        <button class="item-delete">
+                    <i class="ion-ios-close-outline"></i></button>
+                </div>
+                
+            </div> -->
+             
+            
+    </div>
+    <script src="assests/js/Script.js"></script>
+</body>
+</html>
