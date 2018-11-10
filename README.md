@@ -16,3 +16,5 @@ JavaScript Projects
      -Difficulty can be choosen.
 3. Budget App
         -vanillascript budget using module pattern
+4. Rock Paper Scissor 
+        -ES6 version
